@@ -1,0 +1,124 @@
+body {
+  background-color: #FFFFFF;
+}
+
+.nav {
+  background: transparent;
+  border: none;
+  margin: 7px;
+  opacity: .75;
+  cursor: pointer;
+}
+
+.nav:hover {
+  text-decoration: underline;
+}
+
+#gmail {
+  float: right;
+  z-index: 2;
+
+}
+
+#images {
+  float: right;
+  z-index; 1;
+}
+
+#google-logo {
+  display: block;
+  padding-top: 109px;
+  margin: auto;
+  z-index: 4;
+}
+
+
+#searchbar {
+  display: flex;
+  margin: auto;
+  margin-top: 25px;
+  border-color: rgb(223, 225, 229);
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  width: 482px;
+    
+  
+}
+
+.buttons:hover {
+  
+}
+
+.buttons {
+  margin: auto;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  width: 300px;
+  padding-top: 18px;
+  
+  
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: #f2f2f2;
+  width: 100%;
+  border-top: 1px solid #dadce0;
+  line-height: 40px;
+  
+}
+
+.footer {
+  font-size: 14px;
+  border: transparent;
+  opacity: .50;
+ 
+}
+
+.footer:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+#settings {
+  float: right;
+  padding-right: 25px;
+  padding-top: 10px;
+}
+
+#terms {
+  float: right;
+  padding-right: 25px;
+  padding-top: 10px;
+}
+
+#privacy {
+  float: right;
+  padding-right: 25px;
+  padding-top: 10px;
+}
+
+
